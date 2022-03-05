@@ -1,0 +1,1002 @@
+
+/*WV-cloth Responsive*/
+@media (max-width: 1279px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 100%;
+        height: 378px;
+    }
+    .wv-cloth .disc {
+        width: 100%;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        max-width: 27%;
+        max-height: 378px;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        height: 100%;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 100%;
+    }
+}
+@media (max-width: 1114px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 100%;
+        height: 322px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        max-width: 25%;
+        max-height: 322px;
+    }
+    .wv-cloth .disc {
+        max-width: 100%;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 100%;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 95%;
+    }
+    .wv-cloth .col-sm-4 span{
+        display: inline-block;
+        font-size: 30px;
+        bottom: 10px;
+        right: 40px;
+    }
+}
+@media (max-width: 992px) {
+    .wv-cloth .right-col {
+        margin-right: 18px;
+    }
+    .wv-cloth .left-col{
+        margin-left: 18px;
+    }
+    .wv-cloth .wv-tittle h3,.girl-cloth .girl-tittle h3,.boy-cloth .boy-tittle h3 {
+        margin: 10px 18px 20px 18px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        max-width: 31%;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4 .disc{
+        max-width: 100%;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 94%;
+    }
+}
+@media (max-width: 782px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 100%;
+        height: 278px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        max-width: 30%;
+        max-height: 278px;
+    }
+    .wv-cloth .disc {
+        max-width: 100%;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 100%;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 96%;
+    }
+    .wv-cloth .col-sm-4 span{
+        display: inline-block;
+        font-size: 25px;
+        bottom: 10px;
+        right: 20px;
+    }
+    .wv-cloth .wv-tittle h3 span,.girl-cloth .girl-tittle h3 span,.boy-cloth .boy-tittle h3 span{
+        display: inline-block;
+        width: 170px;
+        height: 31px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 2;
+        background: #fff;
+    }
+}
+@media (max-width: 644px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 182px;
+        height: 200px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        max-width: 182px;
+        height: 200px;
+    }
+    .wv-cloth .disc {
+        max-width: 182px;
+        max-height: 100px;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 100%;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 156px;
+    }
+    .wv-cloth .col-sm-4 span{
+        display: inline-block;
+        font-size: 16px;
+        bottom: 10px;
+        right: 0;
+    }
+}
+@media (max-width: 590px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 172px;
+        height: 200px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        max-width: 172px;
+        height: 200px;
+    }
+    .wv-cloth .disc {
+        max-width: 172px;
+        max-height: 100px;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 146px;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 560px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 162px;
+        height: 200px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        max-width: 162px;
+        height: 200px;
+    }
+    .wv-cloth .disc {
+        max-width: 162px;
+        max-height: 100px;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 146px;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 532px) {
+    .wv-cloth .wv-img{
+        margin:  0 18px;
+    }
+    .wv-cloth .right-col {
+        margin-right: 0;
+    }
+    .wv-cloth .left-col{
+        margin-left: 0;
+    }
+    .wv-cloth .col-sm-4 span{
+        bottom: 10px;
+        right: -10px;
+    }
+    .wv-cloth .mx-auto{
+        margin: 0!important;
+    }
+    .wv-cloth .left-auto-col{
+        margin-right: auto!important;
+    }
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 100%;
+        height: 100%;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        max-width: 47%;
+        height: 240px;
+    }
+    .wv-cloth .disc {
+        max-width: 100%;
+        max-height: 140px;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 100%;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 95%;
+    }
+}
+@media (max-width: 367px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 152px;
+        height: 190px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        max-width: 152px;
+        height: 190px;
+    }
+    .wv-cloth .disc {
+        max-width: 152px;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 165px;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 130px;
+    }
+    .wv-cloth .col-sm-4 span{
+        display: inline-block;
+        font-size: 14px;
+    }
+}
+@media (max-width: 346px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 142px;
+        height: 190px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        width: 142px;
+        height: 190px;
+    }
+    .wv-cloth .disc {
+        width: 142px;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 165px;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 125px;
+    }
+    .wv-cloth .col-sm-4 span{
+        display: inline-block;
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .carousel-control-next-n, .carousel-control-prev-p {
+        width: 36px;
+        height: 36px;
+    }
+}
+@media (max-width: 610px) {
+    .carousel-control-next-n, .carousel-control-prev-p {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 322px) {
+    .wv-cloth .wv-img .col-sm-4 img{
+        width: 132px;
+        height: 180px;
+    }
+    .wv-cloth .wv-img .col-sm-4{
+        text-align: center;
+        width: 132px;
+        height: 180px;
+    }
+    .wv-cloth .disc {
+        width: 132px;
+    }
+    .wv-cloth .col-sm-4:hover{
+        padding: 10px;
+        text-align: center;
+    }
+    .wv-cloth .col-sm-4:hover img {
+        width: 100%;
+        height: 155px;
+    }
+    .wv-cloth .col-sm-4:hover .disc{
+        max-width: 115px;
+    }
+    .wv-cloth .col-sm-4 span{
+        display: inline-block;
+        font-size: 14px;
+    }
+}
+/*Boy/Girl Responsive*/
+
+
+@media (max-width: 1348px) {
+    .girl-cloth  .card-image .image-cart .image-cart-content .cart-img a,.boy-cloth .card-image .image-cart .image-cart-content a{
+        margin-top: 60%;
+    }
+}
+@media (max-width: 992px) {
+    .girl-cloth .girl-image-show, .boy-cloth .boy-image-show,.boy-cloth .boy-image-show1,.girl-cloth .girl-image-show1{
+        margin: 0 18px 40px;
+    }
+    .girl-cloth  .girl-image,.boy-cloth  .boy-image{
+        max-width: 210px;
+        max-height: 292px;
+    }
+    /*card image*/
+    .girl-cloth  .card-image,.boy-cloth  .card-image{
+        margin: 0;
+        width: 87px;
+        position: relative;
+    }
+    .girl-cloth  .card-image img,.boy-cloth  .card-image img,.girl-cloth .card-image .image-cart,.boy-cloth .card-image .image-cart{
+        width: 187px;
+        height: 187px;
+    }
+    .girl-cloth  hr,.boy-cloth  hr{
+        width: 173px;
+    }
+    .girl-cloth .girl-image-show .banner-girl,.boy-cloth .boy-image-show .banner-boy{
+        width: 24%;
+        height: 616px;
+    }
+    .girl-cloth .girl-image-show .banner-girl img,.boy-cloth .boy-image-show .banner-boy img{
+        width: 100%;
+        height: 322px;
+    }
+    .girl-cloth .show-image,.boy-cloth .show-image{
+        height: 643px;
+    }
+    /*banner 2*/
+    .girl-cloth .banner-girl2,.boy-cloth .banner-boy2{
+        width: 24%;
+        height: 292px;
+    }
+    .banner-img2{
+        background: linear-gradient(transparent,#F6F7F8 100%);
+        position: absolute;
+        z-index: 999;
+        width: 194px;
+        height: 146px;
+    }
+    .girl-cloth .banner-girl2 img,.boy-cloth .banner-boy2 img{
+        height: 146px;
+        position: relative;
+    }
+    .girl-cloth .banner-girl2 .banner-tittle2,.boy-cloth .banner-boy2 .banner-tittle2{
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .girl-cloth .banner-girl2 .vc,.boy-cloth .banner-boy2 .vc{
+        font-size: 15px;
+    }
+    .girl-cloth .banner-girl2 p a,.boy-cloth .banner-boy2 p a{
+        font-size: 12px;
+    }
+    .girl-cloth #carouselExampleIndicators1,.boy-cloth #carouselExampleIndicators3{
+        max-height: 680px;
+    }
+    .girl-cloth #carouselExampleIndicators2,.boy-cloth #carouselExampleIndicators4{
+        max-height: 360px;
+    }
+    .slide{width: 74%}
+    .girl-cloth  .card-image .image-cart .image-cart-content .cart-img a,.boy-cloth .card-image .image-cart .image-cart-content a{
+        display: inline-block;
+        width: 106px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 12px;
+    }
+    .girl-cloth  .card-image .image-cart .image-cart-content .color-cloth,.boy-cloth .card-image .image-cart .image-cart-content .color-cloth{
+        color: #fff;
+        font-size: 12px;
+        width: 114px;
+        height: 19px;
+    }
+}
+
+@media(max-width: 908px){
+    .girl-cloth  .girl-image,.boy-cloth  .boy-image{
+        max-width: 190px;
+        max-height: 272px;
+    }
+    /*card image*/
+    .girl-cloth  .card-image,.boy-cloth  .card-image{
+        margin: 0;
+        width: 167px;
+        position: relative;
+    }
+    .girl-cloth  .card-image img,.boy-cloth  .card-image img,.girl-cloth .card-image .image-cart,.boy-cloth .card-image .image-cart{
+        width: 167px;
+        height: 167px;
+    }
+    .girl-cloth  .card-image span,.boy-cloth  .card-image span{
+        color: #fff;
+        background: #FF4858;
+        display: inline-block;
+        width: 45px;
+        height: 19px;
+        text-align: center;
+        line-height: 19px;
+        font-size: 11px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .girl-cloth  hr,.boy-cloth  hr{
+        width: 163px;
+    }
+
+    /*girl-image card*/
+
+    .girl-cloth .show-image p a,.girl-cloth .show-image1 p a,.boy-cloth .show-image p a,.boy-cloth .show-image1 p a{
+        width: 190px;
+        font-size: 14px;
+    }
+    .girl-cloth .show-image .price del,.girl-cloth .show-image1 .price del,.boy-cloth .show-image .price del,.boy-cloth .show-image1 .price del{
+        font-size: 12px;
+    }
+    .girl-cloth .show-image .price span,.girl-cloth .show-image1 .price span,.boy-cloth .show-image .price span,.boy-cloth .show-image1 .price span{
+        font-size: 12px;
+    }
+    /*banner*/
+    .girl-cloth .girl-image-show .banner-girl,.boy-cloth .boy-image-show .banner-boy{
+        width: 24%;
+        height: 565px;
+    }
+    .banner-girl .banner-tittle,.banner-boy .banner-tittle{
+        font-size: 29px;
+        margin-top: 34px;
+    }
+    .banner-boy p span,.banner-girl p span{
+        width: 88px;
+        height: 51px;
+        font-size: 38px;
+        color: #FF4858;
+    }
+    .girl-cloth .girl-image-show .banner-girl img,.boy-cloth .boy-image-show .banner-boy img{
+        width: 212px;
+        height: 322px;
+    }
+    .banner-girl p a,.banner-boy p a{
+        width: 64px;
+        height: 21px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FF4858
+    }
+    .girl-cloth .show-image,.boy-cloth .show-image{
+        height: 584px;
+    }
+    /*banner 2*/
+    .girl-cloth .banner-girl2,.boy-cloth .banner-boy2{
+        width:24%;
+        height: 274px;
+    }
+    .banner-img2{
+        background: linear-gradient(transparent,#F6F7F8 100%);
+        position: absolute;
+        z-index: 999;
+        width: 174px;
+        height: 126px;
+    }
+    .girl-cloth .banner-girl2 img,.boy-cloth .banner-boy2 img{
+        width: 174px;
+        height: 126px;
+        position: relative;
+    }
+    .girl-cloth .banner-girl2 .banner-tittle2,.boy-cloth .banner-boy2 .banner-tittle2{
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .girl-cloth .banner-girl2 .vc,.boy-cloth .banner-boy2 .vc{
+        font-size: 15px;
+    }
+    .girl-cloth .banner-girl2 p a,.boy-cloth .banner-boy2 p a{
+        font-size: 12px;
+    }
+    /*.girl-cloth .show-image1,.boy-cloth .show-image1{*/
+    /*    height: 500px;*/
+    /*}*/
+    .slide{width: 74%}
+    .girl-cloth #carouselExampleIndicators1,.boy-cloth #carouselExampleIndicators3{
+        max-height: 600px;
+    }
+    .girl-cloth #carouselExampleIndicators2,.boy-cloth #carouselExampleIndicators4{
+        max-height: 320px;
+    }
+    .girl-cloth  .card-image .image-cart .image-cart-content .cart-img a,.boy-cloth .card-image .image-cart .image-cart-content a{
+        display: inline-block;
+        width: 106px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 12px;
+        margin-top: 50%;
+    }
+    .girl-cloth  .card-image .image-cart .image-cart-content .color-cloth,.boy-cloth .card-image .image-cart .image-cart-content .color-cloth{
+        color: #fff;
+        font-size: 12px;
+        width: 114px;
+        height: 19px;
+        bottom: 0;
+    }
+}
+@media(max-width: 848px){
+    .girl-cloth  .girl-image,.boy-cloth  .boy-image{
+        max-width: 170px;
+        max-height: 252px;
+    }
+    /*card image*/
+    .girl-cloth  .card-image,.boy-cloth  .card-image{
+        margin: 0;
+        width: 147px;
+        position: relative;
+    }
+    .girl-cloth  .card-image img,.boy-cloth  .card-image img,.girl-cloth .card-image .image-cart,.boy-cloth .card-image .image-cart{
+        width: 147px;
+        height: 147px;
+    }
+    .girl-cloth  .card-image span,.boy-cloth  .card-image span{
+        color: #fff;
+        background: #FF4858;
+        display: inline-block;
+        width: 45px;
+        height: 19px;
+        text-align: center;
+        line-height: 19px;
+        font-size: 11px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .girl-cloth  hr,.boy-cloth  hr{
+        width: 123px;
+    }
+
+    /*girl-image card*/
+
+    .girl-cloth .show-image p a,.girl-cloth .show-image1 p a,.boy-cloth .show-image p a,.boy-cloth .show-image1 p a{
+        width: 170px;
+        font-size: 14px;
+    }
+    .girl-cloth .show-image .price del,.girl-cloth .show-image1 .price del,.boy-cloth .show-image .price del,.boy-cloth .show-image1 .price del{
+        font-size: 12px;
+    }
+    .girl-cloth .show-image .price span,.girl-cloth .show-image1 .price span,.boy-cloth .show-image .price span,.boy-cloth .show-image1 .price span{
+        font-size: 12px;
+    }
+    /*banner*/
+    .girl-cloth .girl-image-show .banner-girl,.boy-cloth .boy-image-show .banner-boy{
+        width: 23%;
+        height: 549px;
+    }
+    .banner-girl .banner-tittle,.banner-boy .banner-tittle{
+        font-size: 29px;
+        margin-top: 34px;
+    }
+    .banner-boy p span,.banner-girl p span{
+        width: 88px;
+        height: 51px;
+        font-size: 38px;
+        color: #FF4858;
+    }
+    .girl-cloth .girl-image-show .banner-girl img,.boy-cloth .boy-image-show .banner-boy img{
+        width: 192px;
+        height: 302px;
+    }
+    .banner-girl p a,.banner-boy p a{
+        width: 64px;
+        height: 21px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FF4858
+    }
+    .girl-cloth .show-image,.boy-cloth .show-image{
+        height: 584px;
+    }
+    /*banner 2*/
+    .girl-cloth .banner-girl2,.boy-cloth .banner-boy2{
+        width: 23%;
+        height: 254px;
+    }
+    .banner-img2{
+        background: linear-gradient(transparent,#F6F7F8 100%);
+        position: absolute;
+        z-index: 999;
+        width: 154px;
+        height: 106px;
+    }
+    .girl-cloth .banner-girl2 img,.boy-cloth .banner-boy2 img{
+        width: 154px;
+        height: 106px;
+        position: relative;
+    }
+    .girl-cloth .banner-girl2 .banner-tittle2,.boy-cloth .banner-boy2 .banner-tittle2{
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .girl-cloth .banner-girl2 .vc,.boy-cloth .banner-boy2 .vc{
+        font-size: 15px;
+    }
+    .girl-cloth .banner-girl2 p a,.boy-cloth .banner-boy2 p a{
+        font-size: 12px;
+    }
+    .slide{width: 77%}
+    .girl-cloth  .card-image .image-cart .image-cart-content .cart-img a,.boy-cloth .card-image .image-cart .image-cart-content .cart-img a{
+        display: inline-block;
+        width: 106px;
+        height: 36px;
+        line-height: 36px;
+        margin-top: 45%;
+        font-size: 12px;
+    }
+    .girl-cloth  .card-image .image-cart .image-cart-content .color-cloth,.boy-cloth .card-image .image-cart .image-cart-content .color-cloth{
+        color: #fff;
+        font-size: 12px;
+        width: 114px;
+        height: 19px;
+    }
+}
+@media (min-width: 768px ) {
+    .girl-cloth  .girl-image,.boy-cloth  .boy-image{
+        max-width: 32%;
+    }
+}
+@media(min-width: 682px) and (max-width: 764px){
+    .girl-cloth  .girl-image,.boy-cloth  .boy-image{
+        max-width: 150px;
+        max-height: 232px;
+    }
+    /*card image*/
+    .girl-cloth  .card-image,.boy-cloth  .card-image{
+        margin: 0;
+        width: 127px;
+        position: relative;
+    }
+    .girl-cloth  .card-image img,.boy-cloth  .card-image img,.girl-cloth .card-image .image-cart,.boy-cloth .card-image .image-cart{
+        width: 127px;
+        height: 127px;
+    }
+    .girl-cloth  .card-image span,.boy-cloth  .card-image span{
+        color: #fff;
+        background: #FF4858;
+        display: inline-block;
+        width: 45px;
+        height: 19px;
+        text-align: center;
+        line-height: 19px;
+        font-size: 11px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .girl-cloth  hr,.boy-cloth  hr{
+        width: 123px;
+    }
+
+    /*girl-image card*/
+
+    .girl-cloth .show-image p a,.girl-cloth .show-image1 p a,.boy-cloth .show-image p a,.boy-cloth .show-image1 p a{
+        width: 150px;
+        font-size: 12px;
+    }
+    .girl-cloth .show-image .price del,.girl-cloth .show-image1 .price del,.boy-cloth .show-image .price del,.boy-cloth .show-image1 .price del{
+        font-size: 12px;
+    }
+    .girl-cloth .show-image .price span,.girl-cloth .show-image1 .price span,.boy-cloth .show-image .price span,.boy-cloth .show-image1 .price span{
+        font-size: 12px;
+    }
+    /*banner*/
+    .girl-cloth .girl-image-show .banner-girl,.boy-cloth .boy-image-show .banner-boy{
+        width: 25%;
+        height: 529px;
+    }
+    .banner-girl .banner-tittle,.banner-boy .banner-tittle{
+        font-size: 29px;
+        margin-top: 34px;
+    }
+    .banner-boy p span,.banner-girl p span{
+        width: 88px;
+        height: 51px;
+        font-size: 38px;
+        color: #FF4858;
+    }
+    .girl-cloth .girl-image-show .banner-girl img,.boy-cloth .boy-image-show .banner-boy img{
+        width: 172px;
+        height: 288px;
+    }
+    .banner-girl p a,.banner-boy p a{
+        width: 64px;
+        height: 21px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FF4858
+    }
+    .girl-cloth .show-image,.boy-cloth .show-image{
+        height: 584px;
+    }
+    /*banner 2*/
+    .girl-cloth .banner-girl2,.boy-cloth .banner-boy2{
+        width: 25%;
+        height: 234px;
+    }
+    .banner-img2{
+        background: linear-gradient(transparent,#F6F7F8 100%);
+        position: absolute;
+        z-index: 999;
+        width: 140px;
+        height: 86px;
+    }
+    .girl-cloth .banner-girl2 img,.boy-cloth .banner-boy2 img{
+        width: 114px;
+        height: 86px;
+        position: relative;
+    }
+    .girl-cloth .banner-girl2 .banner-tittle2,.boy-cloth .banner-boy2 .banner-tittle2{
+        margin-top: 15px;
+        font-size: 22px;
+    }
+    .girl-cloth .banner-girl2 .vc,.boy-cloth .banner-boy2 .vc{
+        font-size: 15px;
+    }
+    .girl-cloth .banner-girl2 p a,.boy-cloth .banner-boy2 p a{
+        font-size: 12px;
+    }
+    .slide{width: 75%}
+    /*.girl-cloth .show-image1,.boy-cloth .show-image1{*/
+    /*    height: 500px;*/
+    /*}*/
+    .girl-cloth #carouselExampleIndicators1,.boy-cloth #carouselExampleIndicators3{
+        max-height: 580px;
+    }
+    .girl-cloth #carouselExampleIndicators2,.boy-cloth #carouselExampleIndicators4{
+        max-height: 320px;
+    }
+    .girl-cloth  .card-image .image-cart .image-cart-content .cart-img a,.boy-cloth .card-image .image-cart .image-cart-content a{
+        display: inline-block;
+        width: 86px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .girl-cloth  .card-image .image-cart .image-cart-content .color-cloth,.boy-cloth .card-image .image-cart .image-cart-content .color-cloth{
+        color: #fff;
+        font-size: 12px;
+        width: 114px;
+        height: 19px;
+    }
+}
+@media(max-width: 682px){
+    .girl-cloth .mobile-slider, .boy-cloth .mobile-slider{
+        display: block;
+    }
+    .girl-cloth #carouselExampleIndicators1,.girl-cloth #carouselExampleIndicators2,#carouselExampleIndicators3,#carouselExampleIndicators4{
+        display: none;
+    }
+    .girl-cloth .left-girl{
+        margin-left: 0;
+    }
+    .boy-cloth .right-boy{
+        margin-right: 0;
+    }
+    .girl-cloth .girl-image-show,.boy-cloth .boy-image-show{
+        margin: 0 18px;
+        display: block;
+    }
+    .girl-cloth .girl-image-show .banner-girl, .boy-cloth .boy-image-show .banner-boy {
+        width: 100%;
+        height: 409px;
+    }
+    .boy-cloth .banner-boy2,.boy-cloth .banner-boy{
+        margin-bottom: 20px;
+    }
+
+    .girl-cloth .girl-image-show .banner-girl img, .boy-cloth .boy-image-show .banner-boy img{
+        width:180px;
+        height: 260px;
+        margin: 0;
+    }
+    .wv-cloth .wv-tittle, .boy-cloth .boy-tittle{
+        margin: 40px 0;
+    }
+    .banner-girl .banner-tittle,.banner-boy .banner-tittle{
+        font-size: 21px;
+        margin: 0;
+    }
+    .banner-boy p span,.banner-girl p span{
+        width: 88px;
+        height: 51px;
+        font-size: 21px;
+        color: #FF4858;
+    }
+    .banner-girl p a,.banner-boy p a{
+        width: 64px;
+        height: 21px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #FF4858
+    }
+    .girl-cloth .show-image,.boy-cloth .show-image{
+        height: 530px;
+    }
+    /*banner 2*/
+    .girl-cloth .girl-image-show1,.boy-cloth .boy-image-show1{
+        margin: 0 18px;
+        display: block;
+    }
+    .girl-cloth  .girl-tittle{
+        margin-bottom: 44px;
+    }
+    .girl-cloth .banner-girl2,.boy-cloth .banner-boy2{
+        width: 100%;
+        height: 359px;
+    }
+    .girl-cloth .banner-girl2 img,.boy-cloth .banner-boy2 img{
+        width: 249px;
+        height: 249px;
+        position: relative;
+    }
+    .banner-img2{
+        background: linear-gradient(transparent,#F6F7F8 100%);
+        position: absolute;
+        z-index: 999;
+        width: 249px;
+        height: 249px;
+        left: 140px;
+    }
+    .girl-cloth #carouselExampleIndicators1,.boy-cloth #carouselExampleIndicators3{
+        max-height: 540px;
+    }
+    .girl-cloth #carouselExampleIndicators2,.boy-cloth #carouselExampleIndicators4{
+        max-height: 320px;
+    }
+    .owl-carousel .girl-image p a, .owl-carousel .girl-image p a, .owl-carousel .boy-image p a, .owl-carousel .boy-image p a{
+        font-size: 11px;
+    }
+
+}
+@media (min-width: 548px) and  (max-width: 682px){
+    .girl-cloth .girl-image-show .middle-girl{
+        margin-right: 0;
+    }
+    .boy-cloth  .middle-boy{
+        margin-left:auto;
+    }
+    .boy-cloth  .right-sm-boy{
+        margin-right: 20px;
+        margin-left: auto;
+    }
+    .girl-cloth .girl-image-show .left-sm-girl{
+        margin-left: 20px;
+        margin-right: auto;
+    }
+}
+@media (max-width: 500px) {
+    .girl-cloth .girl-image, .boy-cloth .boy-image{
+        max-width: 200px;
+        height: 252px;
+    }
+}
+@media (max-width: 490px) {
+    .girl-cloth .mobile-slider, .boy-cloth .mobile-slier{
+        display: block;
+    }
+    .girl-cloth #carouselExampleIndicators1,.girl-cloth #carouselExampleIndicators2,#carouselExampleIndicators3,#carouselExampleIndicators4{
+        display: none;
+    }
+    .girl-cloth .show-image,.boy-cloth .show-image{
+        height: 330px;
+    }
+}
+@media (max-width: 484px) {
+    .banner-img2{
+        left: 50px;
+    }
+}
+@media (max-width: 425px) {
+    .owl-carousel .card-image .image-cart .image-cart-content .cart-img a, .owl-carousel .card-image .image-cart .image-cart-content a{
+        width: 90px;
+        height: 35px;
+        line-height: 35px;
+        font-size: 12px;
+    }
+    .girl-cloth .card-image .image-cart .image-cart-content .color-cloth, .boy-cloth .card-image .image-cart .image-cart-content .color-cloth{
+        font-size: 10px;
+        bottom: 0;
+    }
+}
+@media (max-width: 372px) {
+    .banner-img2{
+        left: 20px;
+    }
+}
+@media (max-width: 360px) {
+    .owl-carousel .girl-image .price span, .owl-carousel .girl-image .price span,
+    .owl-carousel .girl-image .price del, .owl-carousel .girl-image .price del{
+        text-align: right;
+    }
+}
+@media(max-width: 338px){
+    .owl-carousel .girl-image p a, .owl-carousel .girl-image p a, .owl-carousel .boy-image p a, .owl-carousel .boy-image p a{
+        font-size: 10px}
+
+    .girl-cloth  .girl-image,.boy-cloth  .boy-image{
+        max-width: 130px;
+        max-height: 212px;
+    }
+    /*card image*/
+    .girl-cloth  .card-image,.boy-cloth  .card-image{
+        margin: 0;
+        width: 107px;
+        position: relative;
+    }
+    .girl-cloth  .card-image img,.boy-cloth  .card-image img,.girl-cloth .card-image .image-cart,.boy-cloth .card-image .image-cart{
+        width: 107px;
+        height: 107px;
+    }
+    .girl-cloth  hr,.boy-cloth  hr{
+        width: 100px;
+    }
+    .girl-cloth  .card-image .image-cart .image-cart-content .cart-img a,.boy-cloth .card-image .image-cart .image-cart-content .cart-img a{
+        display: inline-block;
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .girl-cloth .show-image,.boy-cloth .show-image{
+        height: 280px;
+    }
+    .girl-cloth .card-image .image-cart .image-cart-content .color-cloth, .boy-cloth .card-image .image-cart .image-cart-content .color-cloth{
+        font-size: 10px;
+        color: #fff;
+        bottom: 0;
+    }
+}
+@media (max-width: 306px) {
+    .banner-img2{
+        left: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

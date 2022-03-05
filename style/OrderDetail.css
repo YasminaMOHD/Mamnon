@@ -1,0 +1,153 @@
+@font-face {
+    src: url("../font/TheSans-Plain.otf");
+    font-family:TheSans Plain;
+}
+@font-face {
+    src: url("../font/TheSans-5-Regular.otf");
+    font-family:TheSans;
+}
+main{direction: rtl;
+    font-family:TheSans Plain;
+}
+/*categort-type*/
+.type-category{
+    height: 51px;
+    line-height: 51px;
+    background: #F6F7F8;
+}
+.type-category .type-category-content{
+    margin-right: 100px;
+    text-align: right;
+}
+.type-category-content p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #22262A;
+}
+.type-category-content p span{
+    opacity: .3;
+}
+/**/
+.order-detail{
+    margin-left: 98px;
+    margin-right: 98px;
+    text-align: right;
+}
+.order-detail h3{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "TheSans Plain";
+    margin-bottom: 30px;
+}
+.order-detail .req-bar{
+    display: flex;
+    height: 51px;
+    line-height: 51px;
+    padding: 0 20px;
+    background-color: #F6F7F8;
+}
+.order-detail .req-bar p{
+    font-family: "TheSans Plain";
+    font-size: 18px;
+    font-weight: bold;
+}
+.order-detail .req-bar .price{
+    margin-right: auto;
+}
+.order-detail .pro-detail{
+    margin: 20px 0;
+    display: flex;
+    padding-left: 20px;
+}
+.order-detail .pro-detail img{
+    width: 73px;
+    height: 73px;
+    margin-left: 30px;
+}
+.order-detail .pro-detail .price{
+    margin-right: auto;
+    font-family: TheSans;
+    margin-top: 2%;
+    color: #ED0C6E;
+}
+.order-detail .pro-detail p{
+    font-family: "TheSans Plain";
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.order-detail .pro-detail .quantity{
+    color: #ED0C6E;
+    font-size: 16px;
+}
+.order-detail hr{
+    margin-bottom: 30px;
+    background-color: #F6F7F8;
+    border: none;
+    height: 2px;
+}
+.order-detail .cost p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    display: flex;
+    font-family: "TheSans Plain";
+}
+.order-detail .cost p span{
+    display: block;
+    margin-right: auto;
+    font-family: TheSans;
+}
+.order-detail .total{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "TheSans Plain";
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.order-detail .total span{
+    display: block;
+    margin-right: auto;
+    color: #ED0C6E;
+}
+.order-detail .col-md p{
+    font-weight: bold;
+    font-family: "TheSans Plain";
+    color: #262626;
+    opacity: .7;
+    margin-bottom: 8px;
+}
+
+
+
+@media (max-width: 992px) {
+    .order-detail{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .type-category .type-category-content{
+        margin-right: 10px;
+    }
+}
+@media (min-width: 768px) and  (max-width: 992px){
+    .order-detail .col-md p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 425px) {
+    .order-detail .req-bar p,.order-detail .pro-detail p,.order-detail .cost p{
+        font-size: 16px;
+    }
+    .order-detail .pro-detail .quantity,.order-detail .col-md p{
+        font-size: 14px;
+    }
+    .order-detail .total{
+        font-size: 24px;
+    }
+    .order-detail h3{
+        font-size: 18px;
+    }
+
+}

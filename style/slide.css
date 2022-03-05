@@ -1,0 +1,166 @@
+.owl-carousel .slider{
+    margin:  20px 99px 0 100px;
+    direction: rtl;
+}
+.owl-carousel .row{
+    width: 100%;
+}
+.owl-carousel.owl-drag .owl-item{
+    width: 326.9px;
+}
+
+.owl-carousel .item{
+    /*width: 30%;*/
+    margin-left: 5%;
+}
+.owl-carousel .item .card-img1{
+    margin-bottom: 8%;
+}
+.owl-carousel  .row .col-sm-3{
+    max-width: 23%;
+}
+
+.owl-carousel   .card-image,.owl-carousel   .card-image{
+    width: 100% !important;
+    position: relative;
+}
+.owl-carousel   .card-image img,.owl-carousel   .card-image img,.owl-carousel  .card-image .image-cart,.owl-carousel  .card-image .image-cart{
+    height: 259px;
+}
+.owl-carousel   .girl-image,.owl-carousel  .boy-image{
+    text-align: center;
+    border: 1px solid #000;
+    padding: 10px;
+    width: 100%;
+}
+.owl-carousel   .card-image span ,.owl-carousel   .card-image span{
+    color: #fff;
+    background: #FF4858;
+    display: inline-block;
+    width: 48px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 11px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.owl-carousel   hr,.owl-carousel   hr{
+    margin:5px 0 8px;
+    width:85%;
+    height: 1px;
+    color: #707070;
+}
+.owl-carousel   .card-image .image-cart,.owl-carousel  .card-image .image-cart{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+.owl-carousel  .card-image .image-cart .image-cart-content,.owl-carousel  .card-image .image-cart .image-cart-content{
+    background: rgba(0,0,0,.4);
+    height: 100%;
+    width: 100%;
+}
+.owl-carousel   .card-image .image-cart .image-cart-content .cart-img a,.owl-carousel  .card-image .image-cart .image-cart-content a{
+    display: inline-block;
+    width: 126px;
+    height: 46px;
+    line-height: 46px;
+    background: #FFF;
+    text-align: center;
+    margin-top: 50%;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    border-color: #979797;
+}
+.owl-carousel   .card-image .image-cart .image-cart-content .color-cloth,.owl-carousel  .card-image .image-cart .image-cart-content .color-cloth{
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    height: 19px;
+    margin-top: 40px;
+    text-align: center;
+}
+.owl-carousel   .card-image:hover .image-cart ,.owl-carousel   .card-image:hover .image-cart{
+    display: block;
+    cursor: pointer;
+}
+/*girl-image card*/
+.owl-carousel  .girl-image  p ,.owl-carousel   .card-image  p ,.owl-carousel  .boy-image p ,.owl-carousel  .boy-image p {
+    margin: 0 auto 5px;
+}
+.owl-carousel  .girl-image  p a,.owl-carousel  .girl-image  p a,.owl-carousel  .boy-image p a,.owl-carousel  .boy-image p a{
+    display: inline-block;
+    width: 95%;
+    height: 21px;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+}
+.owl-carousel  .girl-image .price,.owl-carousel  .girl-image .price,.owl-carousel  .boy-image .price,.owl-carousel  .boy-image .price{
+    width: 115.04px;
+    height: 19px;
+    direction: ltr;
+}
+.owl-carousel  .girl-image .price del,.owl-carousel  .girl-image .price del,.owl-carousel  .boy-image .price del,.owl-carousel .boy-image .price del{
+    display: inline-block;
+    width: 50px;
+    height: 19px;
+    font-size: 12px;
+    color: #C1C8CE;
+}
+.owl-carousel  .girl-image .price span,.owl-carousel  .girl-image .price span,.owl-carousel  .boy-image .price span,.owl-carousel  .boy-image .price span{
+    display: inline-block;
+    width: 54px;
+    height: 19px;
+    font-size: 12px;
+    color: #FF4858;
+}
+
+@media (max-width: 484px) {
+    .girl-cloth .owl-carousel   hr{
+        width: 80%;
+    }
+}
+
+@media (max-width: 416px) {
+    .owl-carousel  .girl-image .price del,.owl-carousel  .girl-image .price del,.owl-carousel  .show-image .price del,.owl-carousel .show-image1 .price del{
+        display: inline-block;
+        width: 50px;
+        text-align: left;
+    }
+    .owl-carousel  .girl-image .price span,.owl-carousel  .girl-image .price span,.owl-carousel  .show-image .price span,.owl-carousel  .show-image1 .price span{
+        display: inline-block;
+        width: 54px;
+        text-align: left;
+    }
+}
+@media (max-width: 462px) {
+    .owl-carousel .girl-image .price{
+        margin: 0;
+    }
+    .owl-carousel  .girl-image .price del,.owl-carousel  .girl-image .price del,.owl-carousel  .show-image .price del,.owl-carousel .show-image1 .price del{
+        font-size: 10px;
+        width: 30%;
+    }
+    .owl-carousel  .girl-image .price span,.owl-carousel  .girl-image .price span,.owl-carousel  .show-image .price span,.owl-carousel  .show-image1 .price span{
+        font-size: 10px;
+        width: 50%;
+    }
+}
+@media (max-width: 392px) {
+    .owl-carousel  .girl-image  p a,.owl-carousel  .girl-image  p a,.owl-carousel  .show-image p a,.owl-carousel  .show-image1 p a{
+        display: inline-block;
+        width: 97%;
+        height: 21px;
+        font-size: 10px;
+        color: #000;
+        text-decoration: none;
+    }
+}
+

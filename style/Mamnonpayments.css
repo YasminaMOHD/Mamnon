@@ -1,0 +1,286 @@
+@font-face {
+    src: url("../font/TheSans-Plain.otf");
+    font-family:TheSans Plain;
+}
+@font-face {
+    src: url("../font/TheSans-5-Regular.otf");
+    font-family:TheSans;
+}
+main{direction: rtl}
+/*categort-type*/
+.type-category{
+    height: 51px;
+    line-height: 51px;
+    background: #F6F7F8;
+}
+.type-category .type-category-content{
+    margin-right: 100px;
+    text-align: right;
+}
+.type-category-content p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "TheSans Plain";
+    color: #22262A;
+}
+.type-category-content p span{
+    opacity: .3;
+}
+/**/
+.bill-details{
+    direction: rtl;
+    text-align: right;
+    margin: 20px 98px;
+}
+.bill-details .col-md-6 .row .col-md-6,.bill-details select{
+    height: 60px;
+    margin-bottom: 20px;
+}
+.bill-details input,.bill-details select{
+    width: 100%;
+    border: 2px solid #F1F3F4;
+}
+.bill-details input{
+    height: 100%;
+}
+.bill-details h3{
+    font-family: "TheSans Plain";
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input[type='radio'] {
+    -webkit-appearance:none;
+    width:26px;
+    height:26px;
+    border-radius:50%;
+    border: 2px solid  #22262A;
+    outline:none;
+    margin-left: 5px;
+    cursor: pointer;
+    position: relative;
+    /*box-shadow:0 0 5px 0px gray inset;*/
+}
+input[type='radio']:before {
+    content:'';
+    display:block;
+    width:18px;
+    height:18px;
+    position: absolute;
+    top: 10%;
+    left: 9.5%;
+    border-radius:50%;
+}
+input[type='radio']:checked{
+    border: 2px solid #ED0C6E;
+    background: #fff;
+}
+input[type='radio']:checked:before {
+    background:#ED0C6E;
+}
+select::-ms-expand {
+    display: none;
+}
+form select{
+    appearance: none;
+    position: relative;
+    background-color: #FAFAFB;
+}
+.shipping{
+    position: relative;
+    height: 60px;
+    margin-bottom: 39px;
+}
+.bill-details i.fa-caret-down{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.bill-details .shipping i.fa-caret-down{
+    left: 4%;
+}
+.bill-details input,.bill-details select{
+    padding-right: 20px;
+}
+.bill-details input::placeholder{
+    font-size: 14px;
+    font-family: "TheSans Plain";
+    color: #262626;
+    opacity: .5;
+}
+.bill-details .selectPaid{
+    display: flex;
+}
+.bill-details .selectPaid label{
+    font-family: "TheSans Plain";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+.bill-details .selectPaid label span{
+    display: inline-block;
+    font-size: 14px;
+    font-family: "TheSans Plain";
+    font-weight: normal;
+    margin-top: 20px;
+}
+.bill-details .req-bar{
+    display: flex;
+    height: 51px;
+    line-height: 51px;
+    padding: 0 20px;
+    background-color: #F6F7F8;
+}
+.bill-details .req-bar p{
+    font-family: "TheSans Plain";
+    font-size: 18px;
+    font-weight: bold;
+}
+.bill-details .req-bar .price{
+    margin-right: auto;
+}
+.bill-details .pro-detail{
+    margin: 20px 0;
+    display: flex;
+    padding-left: 20px;
+}
+.bill-details .pro-detail img{
+    width: 73px;
+    height: 73px;
+    margin-left: 30px;
+}
+.bill-details .pro-detail .price{
+    margin-right: auto;
+    font-family: TheSans;
+    margin-top: 2%;
+}
+.bill-details .pro-detail p{
+    font-family: "TheSans Plain";
+    font-size: 18px;
+     font-weight: bold;
+}
+.bill-details .pro-detail .quantity{
+    color: #ED0C6E;
+    font-size: 16px;
+}
+.bill-details hr{
+    margin-bottom: 30px;
+    background-color: #F6F7F8;
+    border: none;
+    height: 2px;
+}
+.bill-details .cost p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    display: flex;
+    font-family: "TheSans Plain";
+}
+.bill-details .cost p span{
+    display: block;
+    margin-right: auto;
+    font-family: TheSans;
+}
+.bill-details .total{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "TheSans Plain";
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.bill-details .total span{
+    display: block;
+    margin-right: auto;
+    color: #ED0C6E;
+}
+.bill-details a{
+    padding: 16px 0 18px;
+    width: 47.5%;
+    color: #fff;
+    background-color: #000;
+    font-family: "TheSans Plain";
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bill-details a:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: all .4s ease-in;
+}
+.pro-detail div{
+    margin-left: 30px;
+}
+.bill-details .row{margin: 0 !important}
+.bill-details .col-md-6.inputs,.bill-details .right-input{
+    padding-right: 0;
+}
+.bill-details .left-input{
+    padding-left: 0;
+}
+
+/*Responsive*/
+@media (max-width: 992px) {
+    .bill-details{
+        margin: 20px 10px;
+    }
+    .type-category .type-category-content{margin-right: 10px}
+    .bill-details .req-bar p,.bill-details .pro-detail p,.bill-details .cost p{
+        font-size: 16px;
+    }
+    .bill-details .pro-detail .quantity{
+        font-size: 14px;
+    }
+    .bill-details h3{
+        font-size: 20px;
+    }
+    .bill-details .total{
+        font-size: 26px;
+    }
+    .bill-details .selectPaid label{
+        font-size: 16px;
+    }
+    .bill-details input::placeholder,.bill-details select ,.bill-details select option{
+        font-size: 12px;
+    }
+    input[type='radio'] {
+        -webkit-appearance:none;
+        width:22px;
+        height:22px;
+        /*box-shadow:0 0 5px 0px gray inset;*/
+    }
+    input[type='radio']:before {
+        width:14px;
+        height:14px;
+        top: 9.568%;
+        left: 16%;
+    }
+}
+@media (max-width: 767.9px) {
+    .bill-details i.fa-caret-down,.bill-details .shipping i.fa-caret-down{
+        left: 8%;
+    }
+    .bill-details .left-input,.bill-details .right-input{
+        padding: 0;
+    }
+    .bill-details a{
+        width: 100%;
+    }
+    .bill-details .col-md-6{
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .bill-details .req-bar p, .bill-details .pro-detail p, .bill-details .cost p{
+        font-size: 14px;
+    }
+    .bill-details .total{
+        font-size: 24px;
+    }
+}

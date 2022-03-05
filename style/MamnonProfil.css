@@ -1,0 +1,115 @@
+@font-face {
+    src: url("../font/TheSans-Plain.otf");
+    font-family:TheSans Plain;
+}
+@font-face {
+    src: url("../font/TheSans-5-Regular.otf");
+    font-family:TheSans;
+}
+main{direction: rtl;
+    font-family:TheSans Plain;
+}
+/*categort-type*/
+.type-category{
+    height: 51px;
+    line-height: 51px;
+    background: #F6F7F8;
+}
+.type-category .type-category-content{
+    margin-right: 100px;
+    text-align: right;
+}
+.type-category-content p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #22262A;
+}
+.type-category-content p span{
+    opacity: .3;
+}
+/**/
+.profil{
+    margin-left: 98px;
+    margin-right: 98px;
+    text-align: right;
+}
+.pro{
+    background-color: #FAFAFB;
+    padding: 20px;
+    border-radius: 4px;
+}
+.profil  h3{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "TheSans Plain";
+    margin-bottom: 30px;
+}
+.profil-bar{
+    display: flex;
+    margin-bottom: 30px;
+}
+.profil-bar p{
+    width: 33%;
+    border-bottom: 3px solid #E5E8EA;
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-family: "TheSans Plain";
+    color: #22262A;
+}
+.profil-bar p#personal{
+    border-bottom: 3px solid #000;
+}
+.profil-content input{
+    width: 100%;
+    height: 60px;
+    border: 2px solid #F1F3F4;
+    background-color: #fff;
+}
+.profil-content input::placeholder{
+    color: #262626;
+    opacity: .5;
+    padding-right: 20px;
+}
+.profil button{
+    padding: 18px 136px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #000;
+    margin-top: 30px;
+}
+.profil button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: all .4s ease-in;
+}
+
+@media (max-width: 992px) {
+    .profil{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .type-category .type-category-content{
+        margin-right: 10px;
+    }
+    
+}
+@media (max-width: 768px) {
+  .profil button{
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+  }
+    .profil-bar p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 460px) {
+    .profil-bar p{
+        font-size: 12px;
+    }
+    .profil-content input::placeholder{
+        font-size: 12px;
+    }
+}

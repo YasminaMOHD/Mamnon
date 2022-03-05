@@ -1,0 +1,257 @@
+@font-face {
+    src: url("../font/TheSans-Plain.otf");
+    font-family:TheSans Plain;
+}
+main{direction: rtl;
+    font-family:TheSans Plain;
+}
+/*categort-type*/
+.type-category{
+    height: 51px;
+    line-height: 51px;
+    background: #F6F7F8;
+}
+.type-category .type-category-content{
+    margin-right: 100px;
+    text-align: right;
+}
+.type-category-content p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #22262A;
+}
+.type-category-content p span{
+    opacity: .3;
+}
+/**/
+.sign-content{
+    margin-left: 98px;
+    margin-right: 98px;
+    text-align: right;
+}
+.sign-content .girls{
+    width: 100%;
+    height: 100%;
+}
+.sign-content .logo{
+    width: 40%;
+    height: 58px;
+}
+.sign-content .choos-sign{
+    margin-top: 41px;
+    margin-bottom: 27px;
+   font-family: "TheSans Plain";
+    font-size: 22px;
+    font-weight: bold;
+}
+.sign-content .choos-sign .dash{
+    color: #707070;
+    opacity: .26;
+}
+.sign-content .choos-sign a{
+    color: #22262A;
+    opacity: .4;
+}
+.sign-content .choos-sign span{
+    opacity: 1;
+    color: #ED0C6E;
+}
+.form-sign input{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 21px;
+    border: 1px solid #F1F3F4;
+}
+.form-sign input::placeholder{
+    padding-right: 20px;
+    color: #262626;
+    opacity: .5;
+}
+.form-sign .pass.pass-margin{
+    margin-bottom: 56px;
+}
+.form-sign .pass.pass-in-margin{
+    margin-bottom: 72px;
+}
+.form-sign .pass{
+    position: relative;
+}
+.form-sign .pass span{
+    position: absolute;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+    text-align: center;
+    line-height: 34px;
+    left: 2%;
+    top: 15%;
+    cursor: pointer;
+}
+.form-sign button{
+    width: 50%;
+    padding: 16px 63px 18px;
+    background-color: #22262A;
+    border: 1px solid #22262A;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "TheSans Plain";
+    text-align: center;
+}
+.form-sign a{
+    font-family: "TheSans Plain";
+    color: #22262A;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 29px;
+    text-decoration: none;
+}
+.form-sign button:hover,.model-wrap .box form button:hover{
+    background-color: #fff;
+    color: #22262A;
+    transition: all .4s ease-in;
+}
+.choos-sign a{text-decoration: none}
+body{
+    position: relative;
+}
+.model-wrap {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0,0,0,.3);
+    z-index: 9999999999999999999999999999999999;
+    padding-top: 10%;
+    display: none;
+}
+.model-wrap .box{
+    padding: 20px;
+    background-color: #fff;
+    width: 70%;
+    margin: auto;
+   text-align: center;
+}
+.model-wrap .box h3{
+    color: #ED0C6E;
+    font-weight: bold;
+    font-family: "TheSans Plain";
+    font-size: 28px;
+    margin-bottom: 37px;
+}
+.model-wrap .box h3 i{
+    display: inline-block;
+    margin-left: 10px;
+}
+.model-wrap .box .close-wrap{
+    color: #BCB6C4;
+    text-align: left;
+    cursor: pointer;
+}
+.model-wrap .box p.text{
+    color: #000;
+    font-size: 19px;
+    font-family: "TheSans Plain";
+    margin-bottom: 33px;
+}
+.model-wrap .box form{
+    text-align: right;
+}
+.model-wrap .box form label{
+    display: block;
+    font-family: "TheSans Plain";
+    font-weight: bold;
+    font-size: 19px;
+    color: #080B39;
+    margin-bottom: 31px;
+}
+.model-wrap .box form input{
+    width: 100%;
+    border: 2px solid #F1F3F4;
+    border-radius: 4px;
+    height: 63px;
+    padding-right: 10px;
+    text-align: right;
+    margin-bottom: 56px;
+}
+.model-wrap .box form input::placeholder{
+    color: #262626;
+    opacity: .5;
+}
+.model-wrap .box form button{
+    width: 100%;
+    background-color: #22262A;
+    border: 1px solid #22262A;
+    color: #fff;
+    text-align: center;
+    font-family: "TheSans Plain";
+    padding-top: 18px;
+    padding-bottom: 21px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1124px) {
+    .form-sign button{
+        font-size: 14px;
+        padding: 16px 50px 18px;
+    }
+    .form-sign a{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .sign-content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .type-category .type-category-content{
+        margin-right: 10px;
+    }
+    .model-wrap .box{
+        width: 80%;
+    }
+}
+@media (max-width: 798px) {
+    .form-sign button{
+        font-size: 14px;
+        padding: 16px 40px 18px;
+    }
+}
+@media (max-width: 768px) {
+   .sign-content #logo{
+       margin-top: 30px;
+   }
+    .sign-content button{
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .sign-content .form-sign a{
+        display: block;
+       text-align: center;
+    }
+}
+@media (max-width: 425px) {
+    .sign-content .logo{
+        width: 60%;
+    }
+    .sign-content .choos-sign,.choos-sign a{
+        font-size: 18px;
+    }
+    .model-wrap .box h3{
+        font-size: 20px;
+    }
+    .model-wrap .box p.text,.model-wrap .box form label,.model-wrap .box form input::placeholder{
+        font-size: 16px;
+    }
+    .model-wrap .box{
+        width: 85%;
+    }
+}
